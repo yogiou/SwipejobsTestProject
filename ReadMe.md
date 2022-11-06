@@ -1,8 +1,10 @@
 Swipejobs test
 
-Build with IDE by installing Java 11, maven.
+Installing Java 11, maven.
 
-Start the project, default base url is localhost:8080
+Build and deploy this maven project
+
+Default base url is localhost:8080
 
 The REST API endpoint is /jobmatch/{workerId}
 
