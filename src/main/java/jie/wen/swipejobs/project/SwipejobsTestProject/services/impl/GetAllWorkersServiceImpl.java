@@ -32,6 +32,10 @@ public class GetAllWorkersServiceImpl implements GetAllWorkersService {
         return getAllWorkers(HOST + WORKER_END_POINT);
     }
 
+    /**
+     * @param uri
+     * @return
+     */
     @Override
     public List<WorkerDTO> getAllWorkers(String uri) {
         ResponseEntity<WorkerDTO[]> responseEntity = restTemplate.getForEntity(uri, WorkerDTO[].class);

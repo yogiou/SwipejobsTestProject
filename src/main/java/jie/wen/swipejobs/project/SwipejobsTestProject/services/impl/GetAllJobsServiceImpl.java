@@ -32,6 +32,10 @@ public class GetAllJobsServiceImpl implements GetAllJobsService {
         return getAllJobs(HOST + JOB_END_POINT);
     }
 
+    /**
+     * @param uri
+     * @return
+     */
     @Override
     public List<JobDTO> getAllJobs(String uri) {
         ResponseEntity<JobDTO[]> responseEntity = restTemplate.getForEntity(uri, JobDTO[].class);
