@@ -1,7 +1,5 @@
 Swipejobs test
 
-Author: Jie Wen
-
 Installing Java 11, maven.
 
 Build and deploy this maven project
